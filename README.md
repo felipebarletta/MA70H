@@ -1,1 +1,1 @@
-# MA70H
+# MA70H - Probabilidade e Estatística
