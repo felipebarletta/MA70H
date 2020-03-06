@@ -1,0 +1,335 @@
+---
+title: "Cronograma das aulas do curso"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+source("setup_knitr.R")
+```
+
+Abaixo está o cronograma inicial planejado para a disciplina. (Pode
+sofrer alterações).
+
+## Escolha a aba de sua turma {.tabset}
+
+### MA70H - Probabilidade E Estatística - TF02
+
+- **Semana 01** - 13/01 a 16/01: 
+    - **aula 01**: Apresentação da disciplina
+    - **aula 01**: Introdução à análise exploratória de dados
+    - **aula 01**: Exercícios.
+    - **aula 02**: Probabilidades 1 
+    - **aula 02**: Exercícios. 
+    - **aula 03**: Probabilidades 2 
+    - **aula 03**: Exercícios
+    - **aula 04**: Variáveis aleatórias discretas
+    - **aula 04**: Exercícios 
+- **Semana 02** - 20/01 a 23/01:
+    - **aula 05**: Medidas resumo
+    - **aula 05**: Exercícios
+    - **aula 06**: Variáveis bidimensionais
+    - **aula 06**: Exercícios
+    - **aula 07**: Revisão
+    - **aula 08**: **Avaliação 1**
+- **Semana 03**: 27/01 a 30/01:
+    - **aula 09 ** Variáveis aleatórias contínuas
+    - **aula 09 ** Exercícios
+    - **aula 10**: Inferência estatística - Estimação 1
+    - **aula 10**: Exercícios
+    - **aula 11**: Inferência estatística - Estimação 2
+    - **aula 11**: Exercícios
+    - **aula 12**: Inferência Estatística - Testes de hipóteses 1
+    - **aula 12**: Exercícios
+   
+- **Semana 04**: 04/01 a 06/01  
+    - **aula 13**: Inferência estatística - Testes de hipóteses 2
+    - **aula 13**: Exercícios
+    - **aula 14**: Dúvidas lista de exercícios
+    - **aula 15**: **Avaliação 2**
+   
+### MA70H - Probabilidade e Estatística	S03
+
+- **Semana 01**: 03/03 e 05/03  
+  - **aula 01**: Apresentação da disciplina
+  - **aula 02**: Capítulo 1: Estatística Descritiva
+  - **aula 02**: Exercício para o trabalho
+<br>
+<br>
+- **Semana 02**: 10/03 e 12/03  
+  - **aula 03**: Capítulo 2: Probabilidade 
+  - **aula 04**: Probabilidade condicional e Teorema de Bayes
+<br>
+<br>
+- **Semana 03**: 17/03 e 19/03  
+  - **aula 05**: Exercícios sobre probabilidade 
+  - **aula 06**: Capítulo 3: Variáveis aleatórias discretas
+<br>
+<br>
+- **Semana 04**: 24/03 e 26/03  
+  - **aula 07**: Capítulo 4: Medidas Resumo
+  - **aula 08**: Exercícios da aula anterior
+<br>
+<br>
+- **Semana 05**: 31/03 e 02/04  
+  - **aula 09**: Capítulo 5: Variáveis aleatórias contínuas
+  - **aula 10**: Exercícios da aula anterior
+<br>
+<br>
+- **Semana 06**: 07/04 e 09/04  
+  - **aula 11**: Apresentação e explicação do trabalho pelo professor
+  - **aula 12**: Revisão para a prova 1 (Cap. 1 - Estatística Descritiva, Cap. 2 - Probabilidade)
+<br>
+<br>
+- **Semana 07**: 14/04 e 16/04  
+  - **aula 13**: Revisão para a prova 1 (Cap. 3 - Variável aleatória discreta, Cap. 4 - Medidas Resumo, Cap. 5 - Variável aleatória contínua)
+  - **aula 14**: **Prova 1 (Cap. 1 ao 5)**
+<br>
+<br>
+- **Semana 08**: 23/04  
+  - **aula 15**: Resolução da prova 1
+<br>
+<br>
+- **Semana 09**: 28/04 a 30/04  
+  - **aula 16**: Capítulo 6: Inferência Estatística - Estimadores pontuais
+  - **aula 17**: Capítulo 6: Inferência Estatística - Distribuição amostral
+<br>
+<br>
+- **Semana 10**: 12/05 e 14/05  
+  - **aula 18**: Exercícios sobre Inferência estatística: Estimadores pontuais
+  - **aula 19**: Capítulo 6: Inferência Estatística - Estimadores intervalares
+<br>
+<br>
+- **Semana 11**: 19/05 e 21/05 
+  - **aula 20**: Capítulo 6: Inferência Estatística - Intervalo de confiança para proporção
+  - **aula 21**: Exercícios sobre Inferência estatística: Estimadores intervalares
+<br>
+<br>
+- **Semana 12**: 26/05 e 28/05 
+  - **aula 22**: Capítulo 7: Testes de hipóteses
+  - **aula 23**: Exercícios sobre a aula anterior
+<br>
+<br>
+- **Semana 13**: 02/06 e 04/06 
+  - **aula 24**: Testes Qui-quadrado$(\chi^2)$
+  - **aula 25**: Comparação de duas médias
+<br>
+<br>
+- **Semana 14**: 09/06 
+  - **aula 26**: Exercícios sobre a aula anterior
+<br>
+<br>
+- **Semana 15**: 16/06 e 18/06
+  - **aula 27**: Capítulo 8: Análise de Variância (ANOVA)
+  - **aula 28**: Exercícios sobre ANOVA
+<br>
+<br>  
+- **Semana 16**: 23/06 e 25/06
+  - **aula 29**: Capítulo 9: Análise de correlação e regressão
+  - **aula 30**: Exercícios sobre a aula passada
+<br>
+<br>  
+- **Semana 17**: 30/06 e 02/07
+  - **aula 31**: Regressão linear simples
+  - **aula 32**: Exercícios da aula anterior e mais alguns modelos de Regressão Linear simples no R e exemplos para o Trabalho.
+<br>
+<br>
+- **Semana 18**: 07/07 e 09/07
+  - **aula 33**: Revisão para a prova 2 (Cap. 6: Inferência Estatística, Cap. 7: Testes de hipóteses, Cap. 8: Análise de Variância, Cap. 9: Análise de correlação e regressão
+  - **aula 34**: **Prova 2 (Cap. 6 ao 9)**  
+
+<div class="alert alert-danger" role="alert">
+- AVALIAÇÃO DE RECUPERAÇÃO 14/07 as 20:20h  
+</div>  
+
+
+### MA70H - Probabilidade e Estatística	S51
+
+- **Semana 01**: 04/03 e 06/03  
+  - **aula 01**: Apresentação da disciplina
+  - **aula 02**: Capítulo 1: Estatística Descritiva
+  - **aula 02**: Exercício para o trabalho
+<br>
+<br>
+- **Semana 02**: 11/03 e 13/03  
+  - **aula 03**: Capítulo 2: Probabilidade 
+  - **aula 04**: Probabilidade condicional e Teorema de Bayes
+<br>
+<br>
+- **Semana 03**: 18/03 e 20/03  
+  - **aula 05**: Exercícios sobre probabilidade;
+  - **aula 06**: Capítulo 3: Variáveis aleatórias discretas
+<br>
+<br>
+- **Semana 04**: 25/03 e 27/03  
+  - **aula 07**: Capítulo 4: Medidas Resumo;
+  - **aula 08**: Exercícios da aula anterior
+<br>
+<br>
+- **Semana 05**: 01/04 e 03/04  
+  - **aula 09**: Capítulo 5: Variáveis aleatórias contínuas
+  - **aula 10**: Exercícios da aula anterior
+<br>
+<br>
+- **Semana 06**: 08/04
+  - **aula 11**: Apresentação e explicação do trabalho pelo professor
+<br>
+<br>
+- **Semana 07**: 15/04 e 17/04  
+  - **aula 12**: Revisão para a prova 1 (Cap. 3 - Variável aleatória discreta, Cap. 4 - Medidas Resumo, Cap. 5 - Variável aleatória contínua)
+  - **aula 13**: **Prova I (Cap. 1 ao 5)** 
+<br>
+<br>
+- **Semana 08**: 22/04 e 24/04  
+  - **aula 14**: Capítulo 6: Inferência Estatística: Estimadores pontuais
+  - **aula 15**: Distribuição amostral
+<br>
+<br>
+- **Semana 09**: 29/04  
+  - **aula 16**: Exercícios sobre Inferência estatística: Estimadores pontuais
+<br>
+<br>
+- **Semana 10**: 13/05 e 15/05  
+  - **aula 17**: Estimadores intervalares
+  - **aula 18**: Intervalo de confiança para proporção
+<br>
+<br>
+- **Semana 11**: 20/05 e 22/05 
+  - **aula 19**: Exercícios sobre Inferência estatística: Estimadores intervalares
+  - **aula 20**: Capítulo 7: Testes de hipóteses
+<br>
+<br>
+- **Semana 12**: 27/05 e 29/05 
+  - **aula 21**: Exercícios sobre a aula anterior
+  - **aula 22**: Teste Qui-quadrado $(\chi^2)$
+<br>
+<br>
+- **Semana 13**: 03/06 e 05/06 
+  - **aula 23**: Comparação de duas médias
+  - **aula 24**: Exercícios sobre a aula anterior.
+<br>
+<br>
+- **Semana 14**: 10/06 
+  - **aula 25**: Capítulo 8: Análise de Variância (ANOVA)
+<br>
+<br>
+- **Semana 15**: 17/06 e 19/06
+  - **aula 26**: Exercícios sobre ANOVA
+  - **aula 27**: Capítulo 9: Análise de correlação e regressão  
+<br>
+<br>
+- **Semana 16**: 24/06 e 26/06
+  - **aula 28**: Exercícios sobre a aula passada
+  - **aula 29**: Regressão Linear Simples
+<br>
+<br>
+- **Semana 17**: 01/07 e 03/07
+  - **aula 30**: Revisão para a prova 2 (Cap. 6: Inferência Estatística, Cap. 7: Testes de hipóteses, Cap. 8: Análise de Variância, Cap. 9: Análise de correlação e regressão
+  - **aula 31**: **Prova 2 (Cap. 6 ao 9)**
+<br>
+<br>
+- **Semana 18**: 08/07
+  - **aula 32**: Espaço para tirar dúvidas para a prova de recuperação
+
+<div class="alert alert-danger" role="alert">
+- AVALIAÇÃO DE RECUPERALÇÃO 10/07 as 18:40h  
+</div>  
+
+
+
+### MA70H - Probabilidade e Estatística	S73
+
+- **Semana 01**: 02/03 e 04/03  
+  - **aula 01**: Apresentação da disciplina
+  - **aula 02**: Capítulo 1: Estatística Descritiva
+  - **aula 02**: Exercício para o trabalho
+<br>
+<br>
+- **Semana 02**: 09/03 e 11/03  
+  - **aula 03**: Capítulo 2: Probabilidade 
+  - **aula 04**: Probabilidade condicional e Teorema de Bayes
+<br>
+<br>
+- **Semana 03**: 16/03 e 18/03  
+  - **aula 05**: Exercícios sobre probabilidade 
+  - **aula 06**: Capítulo 3: Variáveis aleatórias discretas
+<br>
+<br>
+- **Semana 04**: 23/03 e 25/03  
+  - **aula 07**: Capítulo 4: Medidas Resumo
+  - **aula 08**: Exercícios da aula anterior
+<br>
+<br>
+- **Semana 05**: 30/03 e 01/04  
+  - **aula 09**: Capítulo 5: Variáveis aleatórias contínuas
+  - **aula 10**: Exercícios da aula anterior
+<br>
+<br>
+- **Semana 06**: 06/04 e 08/04  
+  - **aula 11**: Apresentação e explicação do trabalho pelo professor
+  - **aula 12**: Revisão para a prova 1 (Cap. 1 - Estatística Descritiva, Cap. 2 - Probabilidade)
+<br>
+<br>
+- **Semana 07**: 13/04 e 15/04  
+  - **aula 13**: Revisão para a prova 1 (Cap. 3 - Variável aleatória discreta, Cap. 4 - Medidas Resumo, Cap. 5 - Variável aleatória contínua)
+  - **aula 14**: **Prova 1 (Cap. 1 ao 5)**
+<br>
+<br>
+- **Semana 08**: 22/04  
+  - **aula 15**: Resolução da prova 1
+<br>
+<br>
+- **Semana 09**: 27/04 a 29/04  
+  - **aula 16**: Capítulo 6: Inferência Estatística - Estimadores pontuais
+  - **aula 17**: Capítulo 6: Inferência Estatística - Distribuição amostral
+<br>
+<br>
+- **Semana 10**: 11/05 e 13/05  
+  - **aula 18**: Exercícios sobre Inferência estatística: Estimadores pontuais
+  - **aula 19**: Capítulo 6: Inferência Estatística - Estimadores intervalares
+<br>
+<br>
+- **Semana 11**: 18/05 e 20/05 
+  - **aula 20**: Capítulo 6: Inferência Estatística - Intervalo de confiança para proporção
+  - **aula 21**: Exercícios sobre Inferência estatística: Estimadores intervalares
+<br>
+<br>
+- **Semana 12**: 25/05 e 27/05 
+  - **aula 22**: Capítulo 7: Testes de hipóteses
+  - **aula 23**: Exercícios sobre a aula anterior
+<br>
+<br>
+- **Semana 13**: 01/06 e 03/06 
+  - **aula 24**: Testes Qui-quadrado$(\chi^2)$
+  - **aula 25**: Comparação de duas médias
+<br>
+<br>
+- **Semana 14**: 08/06 e 10/06
+  - **aula 26**: Exercícios sobre a aula anterior
+  - **aula 27**: Capítulo 8: Análise de Variância (ANOVA)
+<br>
+<br>
+- **Semana 15**: 15/06 e 17/06
+  - **aula 28**: Exercícios sobre ANOVA
+  - **aula 29**: Capítulo 9: Análise de correlação e regressão
+<br>
+<br>  
+- **Semana 16**: 22/06 e 24/06
+  - **aula 30**: Exercícios sobre a aula passada
+  - **aula 31**: Regressão linear simples
+<br>
+<br>  
+- **Semana 17**: 29/06 e 01/07
+  - **aula 32**: Exercícios da aula anterior e mais alguns modelos de Regressão Linear simples no R e exemplos para o Trabalho.
+  - **aula 33**: Revisão para a prova 2 (Cap. 6: Inferência Estatística, Cap. 7: Testes de hipóteses, Cap. 8: Análise de Variância, Cap. 9: Análise de correlação e regressão
+<br>
+<br>
+- **Semana 18**: 06/07 e 08/07
+  - **aula 34**: **Prova 2 (Cap. 6 ao 9)**
+  - **aula 35**: Espaço para estudo e tirar dúvidas para a prova de recuperação   
+
+<div class="alert alert-danger" role="alert">
+- AVALIAÇÃO DE RECUPERAÇÃO 13/07 as 13:00h  
+</div>
+

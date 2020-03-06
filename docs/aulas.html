@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Cronograma das aulas do curso</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66454501-8"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-66454501-8');
+</script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">MA70H</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="aulas.html">Aulas</a>
+</li>
+<li>
+  <a href="referencias.html">Referências</a>
+</li>
+<li>
+  <a href="programas.html">Programas</a>
+</li>
+<li>
+  <a href="Como_Instalar_R.html">R - Guia de instalação</a>
+</li>
+<li>
+  <a href="Trabalho.html">Trabalho</a>
+</li>
+<li>
+  <a href="notas.html">Notas</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Materiais
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Slides</li>
+    <li>
+      <a href="slides/01_Analise_Estatistica_Descritiva.pdf">Introdução à análise estatística descritiva</a>
+    </li>
+    <li>
+      <a href="slides/02_Probabilidades.pdf">Probabilidades [PDF]</a>
+    </li>
+    <li>
+      <a href="slides/03_Variaveis_Discretas.pdf">Variáveis aleatórias discretas [PDF]</a>
+    </li>
+    <li>
+      <a href="slides/04_Medidas_Resumo.pdf">Medidas resumo [PDF]</a>
+    </li>
+    <li>
+      <a href="slides/05_Variaveis_Bidimensionais.pdf">Variáveis bidimensionais [PDF]</a>
+    </li>
+    <li>
+      <a href="slides/06_Variaveis_Continuas.pdf">Variáveis aleatórias contínuas [PDF]</a>
+    </li>
+    <li>
+      <a href="slides/07a_Estimacao.pdf">Estimação: (A) propriedades e distribuições amostrais [PDF]</a>
+    </li>
+    <li>
+      <a href="slides/07b_Estimacao.pdf">Estimação: (B) estimação por intervalo [PDF]</a>
+    </li>
+    <li>
+      <a href="slides/08_Teste_Hipotese.pdf">Testes de hipóteses [PDF]</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">Cronograma das aulas do curso</h1>
+
+</div>
+
+
+<p>Abaixo está o cronograma inicial planejado para a disciplina. (Pode sofrer alterações).</p>
+<div id="escolha-a-aba-de-sua-turma" class="section level2 tabset">
+<h2>Escolha a aba de sua turma</h2>
+<div id="ma70h---probabilidade-e-estatística---tf02" class="section level3">
+<h3>MA70H - Probabilidade E Estatística - TF02</h3>
+<ul>
+<li><strong>Semana 01</strong> - 13/01 a 16/01:
+<ul>
+<li><strong>aula 01</strong>: Apresentação da disciplina</li>
+<li><strong>aula 01</strong>: Introdução à análise exploratória de dados</li>
+<li><strong>aula 01</strong>: Exercícios.</li>
+<li><strong>aula 02</strong>: Probabilidades 1</li>
+<li><strong>aula 02</strong>: Exercícios.</li>
+<li><strong>aula 03</strong>: Probabilidades 2</li>
+<li><strong>aula 03</strong>: Exercícios</li>
+<li><strong>aula 04</strong>: Variáveis aleatórias discretas</li>
+<li><strong>aula 04</strong>: Exercícios</li>
+</ul></li>
+<li><strong>Semana 02</strong> - 20/01 a 23/01:
+<ul>
+<li><strong>aula 05</strong>: Medidas resumo</li>
+<li><strong>aula 05</strong>: Exercícios</li>
+<li><strong>aula 06</strong>: Variáveis bidimensionais</li>
+<li><strong>aula 06</strong>: Exercícios</li>
+<li><strong>aula 07</strong>: Revisão</li>
+<li><strong>aula 08</strong>: <strong>Avaliação 1</strong></li>
+</ul></li>
+<li><strong>Semana 03</strong>: 27/01 a 30/01:
+<ul>
+<li><strong>aula 09 </strong> Variáveis aleatórias contínuas</li>
+<li><strong>aula 09 </strong> Exercícios</li>
+<li><strong>aula 10</strong>: Inferência estatística - Estimação 1</li>
+<li><strong>aula 10</strong>: Exercícios</li>
+<li><strong>aula 11</strong>: Inferência estatística - Estimação 2</li>
+<li><strong>aula 11</strong>: Exercícios</li>
+<li><strong>aula 12</strong>: Inferência Estatística - Testes de hipóteses 1</li>
+<li><strong>aula 12</strong>: Exercícios</li>
+</ul></li>
+<li><strong>Semana 04</strong>: 04/01 a 06/01
+<ul>
+<li><strong>aula 13</strong>: Inferência estatística - Testes de hipóteses 2</li>
+<li><strong>aula 13</strong>: Exercícios</li>
+<li><strong>aula 14</strong>: Dúvidas lista de exercícios</li>
+<li><strong>aula 15</strong>: <strong>Avaliação 2</strong></li>
+</ul></li>
+</ul>
+</div>
+<div id="ma70h---probabilidade-e-estatística-s03" class="section level3">
+<h3>MA70H - Probabilidade e Estatística S03</h3>
+<ul>
+<li><strong>Semana 01</strong>: 03/03 e 05/03
+<ul>
+<li><strong>aula 01</strong>: Apresentação da disciplina</li>
+<li><strong>aula 02</strong>: Capítulo 1: Estatística Descritiva</li>
+<li><strong>aula 02</strong>: Exercício para o trabalho <br> <br></li>
+</ul></li>
+<li><strong>Semana 02</strong>: 10/03 e 12/03
+<ul>
+<li><strong>aula 03</strong>: Capítulo 2: Probabilidade</li>
+<li><strong>aula 04</strong>: Probabilidade condicional e Teorema de Bayes <br> <br></li>
+</ul></li>
+<li><strong>Semana 03</strong>: 17/03 e 19/03
+<ul>
+<li><strong>aula 05</strong>: Exercícios sobre probabilidade</li>
+<li><strong>aula 06</strong>: Capítulo 3: Variáveis aleatórias discretas <br> <br></li>
+</ul></li>
+<li><strong>Semana 04</strong>: 24/03 e 26/03
+<ul>
+<li><strong>aula 07</strong>: Capítulo 4: Medidas Resumo</li>
+<li><strong>aula 08</strong>: Exercícios da aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 05</strong>: 31/03 e 02/04
+<ul>
+<li><strong>aula 09</strong>: Capítulo 5: Variáveis aleatórias contínuas</li>
+<li><strong>aula 10</strong>: Exercícios da aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 06</strong>: 07/04 e 09/04
+<ul>
+<li><strong>aula 11</strong>: Apresentação e explicação do trabalho pelo professor</li>
+<li><strong>aula 12</strong>: Revisão para a prova 1 (Cap. 1 - Estatística Descritiva, Cap. 2 - Probabilidade) <br> <br></li>
+</ul></li>
+<li><strong>Semana 07</strong>: 14/04 e 16/04
+<ul>
+<li><strong>aula 13</strong>: Revisão para a prova 1 (Cap. 3 - Variável aleatória discreta, Cap. 4 - Medidas Resumo, Cap. 5 - Variável aleatória contínua)</li>
+<li><strong>aula 14</strong>: <strong>Prova 1 (Cap. 1 ao 5)</strong> <br> <br></li>
+</ul></li>
+<li><strong>Semana 08</strong>: 23/04
+<ul>
+<li><strong>aula 15</strong>: Resolução da prova 1 <br> <br></li>
+</ul></li>
+<li><strong>Semana 09</strong>: 28/04 a 30/04
+<ul>
+<li><strong>aula 16</strong>: Capítulo 6: Inferência Estatística - Estimadores pontuais</li>
+<li><strong>aula 17</strong>: Capítulo 6: Inferência Estatística - Distribuição amostral <br> <br></li>
+</ul></li>
+<li><strong>Semana 10</strong>: 12/05 e 14/05
+<ul>
+<li><strong>aula 18</strong>: Exercícios sobre Inferência estatística: Estimadores pontuais</li>
+<li><strong>aula 19</strong>: Capítulo 6: Inferência Estatística - Estimadores intervalares <br> <br></li>
+</ul></li>
+<li><strong>Semana 11</strong>: 19/05 e 21/05
+<ul>
+<li><strong>aula 20</strong>: Capítulo 6: Inferência Estatística - Intervalo de confiança para proporção</li>
+<li><strong>aula 21</strong>: Exercícios sobre Inferência estatística: Estimadores intervalares <br> <br></li>
+</ul></li>
+<li><strong>Semana 12</strong>: 26/05 e 28/05
+<ul>
+<li><strong>aula 22</strong>: Capítulo 7: Testes de hipóteses</li>
+<li><strong>aula 23</strong>: Exercícios sobre a aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 13</strong>: 02/06 e 04/06
+<ul>
+<li><strong>aula 24</strong>: Testes Qui-quadrado<span class="math inline">\((\chi^2)\)</span></li>
+<li><strong>aula 25</strong>: Comparação de duas médias <br> <br></li>
+</ul></li>
+<li><strong>Semana 14</strong>: 09/06
+<ul>
+<li><strong>aula 26</strong>: Exercícios sobre a aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 15</strong>: 16/06 e 18/06
+<ul>
+<li><strong>aula 27</strong>: Capítulo 8: Análise de Variância (ANOVA)</li>
+<li><strong>aula 28</strong>: Exercícios sobre ANOVA <br> <br><br />
+</li>
+</ul></li>
+<li><strong>Semana 16</strong>: 23/06 e 25/06
+<ul>
+<li><strong>aula 29</strong>: Capítulo 9: Análise de correlação e regressão</li>
+<li><strong>aula 30</strong>: Exercícios sobre a aula passada <br> <br><br />
+</li>
+</ul></li>
+<li><strong>Semana 17</strong>: 30/06 e 02/07
+<ul>
+<li><strong>aula 31</strong>: Regressão linear simples</li>
+<li><strong>aula 32</strong>: Exercícios da aula anterior e mais alguns modelos de Regressão Linear simples no R e exemplos para o Trabalho. <br> <br></li>
+</ul></li>
+<li><strong>Semana 18</strong>: 07/07 e 09/07
+<ul>
+<li><strong>aula 33</strong>: Revisão para a prova 2 (Cap. 6: Inferência Estatística, Cap. 7: Testes de hipóteses, Cap. 8: Análise de Variância, Cap. 9: Análise de correlação e regressão</li>
+<li><strong>aula 34</strong>: <strong>Prova 2 (Cap. 6 ao 9)</strong></li>
+</ul></li>
+</ul>
+<div class="alert alert-danger" role="alert">
+<ul>
+<li>AVALIAÇÃO DE RECUPERAÇÃO 14/07 as 20:20h<br />
+</li>
+</ul>
+</div>
+</div>
+<div id="ma70h---probabilidade-e-estatística-s51" class="section level3">
+<h3>MA70H - Probabilidade e Estatística S51</h3>
+<ul>
+<li><strong>Semana 01</strong>: 04/03 e 06/03
+<ul>
+<li><strong>aula 01</strong>: Apresentação da disciplina</li>
+<li><strong>aula 02</strong>: Capítulo 1: Estatística Descritiva</li>
+<li><strong>aula 02</strong>: Exercício para o trabalho <br> <br></li>
+</ul></li>
+<li><strong>Semana 02</strong>: 11/03 e 13/03
+<ul>
+<li><strong>aula 03</strong>: Capítulo 2: Probabilidade</li>
+<li><strong>aula 04</strong>: Probabilidade condicional e Teorema de Bayes <br> <br></li>
+</ul></li>
+<li><strong>Semana 03</strong>: 18/03 e 20/03
+<ul>
+<li><strong>aula 05</strong>: Exercícios sobre probabilidade;</li>
+<li><strong>aula 06</strong>: Capítulo 3: Variáveis aleatórias discretas <br> <br></li>
+</ul></li>
+<li><strong>Semana 04</strong>: 25/03 e 27/03
+<ul>
+<li><strong>aula 07</strong>: Capítulo 4: Medidas Resumo;</li>
+<li><strong>aula 08</strong>: Exercícios da aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 05</strong>: 01/04 e 03/04
+<ul>
+<li><strong>aula 09</strong>: Capítulo 5: Variáveis aleatórias contínuas</li>
+<li><strong>aula 10</strong>: Exercícios da aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 06</strong>: 08/04
+<ul>
+<li><strong>aula 11</strong>: Apresentação e explicação do trabalho pelo professor <br> <br></li>
+</ul></li>
+<li><strong>Semana 07</strong>: 15/04 e 17/04
+<ul>
+<li><strong>aula 12</strong>: Revisão para a prova 1 (Cap. 3 - Variável aleatória discreta, Cap. 4 - Medidas Resumo, Cap. 5 - Variável aleatória contínua)</li>
+<li><strong>aula 13</strong>: <strong>Prova I (Cap. 1 ao 5)</strong> <br> <br></li>
+</ul></li>
+<li><strong>Semana 08</strong>: 22/04 e 24/04
+<ul>
+<li><strong>aula 14</strong>: Capítulo 6: Inferência Estatística: Estimadores pontuais</li>
+<li><strong>aula 15</strong>: Distribuição amostral <br> <br></li>
+</ul></li>
+<li><strong>Semana 09</strong>: 29/04
+<ul>
+<li><strong>aula 16</strong>: Exercícios sobre Inferência estatística: Estimadores pontuais <br> <br></li>
+</ul></li>
+<li><strong>Semana 10</strong>: 13/05 e 15/05
+<ul>
+<li><strong>aula 17</strong>: Estimadores intervalares</li>
+<li><strong>aula 18</strong>: Intervalo de confiança para proporção <br> <br></li>
+</ul></li>
+<li><strong>Semana 11</strong>: 20/05 e 22/05
+<ul>
+<li><strong>aula 19</strong>: Exercícios sobre Inferência estatística: Estimadores intervalares</li>
+<li><strong>aula 20</strong>: Capítulo 7: Testes de hipóteses <br> <br></li>
+</ul></li>
+<li><strong>Semana 12</strong>: 27/05 e 29/05
+<ul>
+<li><strong>aula 21</strong>: Exercícios sobre a aula anterior</li>
+<li><strong>aula 22</strong>: Teste Qui-quadrado <span class="math inline">\((\chi^2)\)</span> <br> <br></li>
+</ul></li>
+<li><strong>Semana 13</strong>: 03/06 e 05/06
+<ul>
+<li><strong>aula 23</strong>: Comparação de duas médias</li>
+<li><strong>aula 24</strong>: Exercícios sobre a aula anterior. <br> <br></li>
+</ul></li>
+<li><strong>Semana 14</strong>: 10/06
+<ul>
+<li><strong>aula 25</strong>: Capítulo 8: Análise de Variância (ANOVA) <br> <br></li>
+</ul></li>
+<li><strong>Semana 15</strong>: 17/06 e 19/06
+<ul>
+<li><strong>aula 26</strong>: Exercícios sobre ANOVA</li>
+<li><strong>aula 27</strong>: Capítulo 9: Análise de correlação e regressão<br />
+<br> <br></li>
+</ul></li>
+<li><strong>Semana 16</strong>: 24/06 e 26/06
+<ul>
+<li><strong>aula 28</strong>: Exercícios sobre a aula passada</li>
+<li><strong>aula 29</strong>: Regressão Linear Simples <br> <br></li>
+</ul></li>
+<li><strong>Semana 17</strong>: 01/07 e 03/07
+<ul>
+<li><strong>aula 30</strong>: Revisão para a prova 2 (Cap. 6: Inferência Estatística, Cap. 7: Testes de hipóteses, Cap. 8: Análise de Variância, Cap. 9: Análise de correlação e regressão</li>
+<li><strong>aula 31</strong>: <strong>Prova 2 (Cap. 6 ao 9)</strong> <br> <br></li>
+</ul></li>
+<li><strong>Semana 18</strong>: 08/07
+<ul>
+<li><strong>aula 32</strong>: Espaço para tirar dúvidas para a prova de recuperação</li>
+</ul></li>
+</ul>
+<div class="alert alert-danger" role="alert">
+<ul>
+<li>AVALIAÇÃO DE RECUPERALÇÃO 10/07 as 18:40h<br />
+</li>
+</ul>
+</div>
+</div>
+<div id="ma70h---probabilidade-e-estatística-s73" class="section level3">
+<h3>MA70H - Probabilidade e Estatística S73</h3>
+<ul>
+<li><strong>Semana 01</strong>: 02/03 e 04/03
+<ul>
+<li><strong>aula 01</strong>: Apresentação da disciplina</li>
+<li><strong>aula 02</strong>: Capítulo 1: Estatística Descritiva</li>
+<li><strong>aula 02</strong>: Exercício para o trabalho <br> <br></li>
+</ul></li>
+<li><strong>Semana 02</strong>: 09/03 e 11/03
+<ul>
+<li><strong>aula 03</strong>: Capítulo 2: Probabilidade</li>
+<li><strong>aula 04</strong>: Probabilidade condicional e Teorema de Bayes <br> <br></li>
+</ul></li>
+<li><strong>Semana 03</strong>: 16/03 e 18/03
+<ul>
+<li><strong>aula 05</strong>: Exercícios sobre probabilidade</li>
+<li><strong>aula 06</strong>: Capítulo 3: Variáveis aleatórias discretas <br> <br></li>
+</ul></li>
+<li><strong>Semana 04</strong>: 23/03 e 25/03
+<ul>
+<li><strong>aula 07</strong>: Capítulo 4: Medidas Resumo</li>
+<li><strong>aula 08</strong>: Exercícios da aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 05</strong>: 30/03 e 01/04
+<ul>
+<li><strong>aula 09</strong>: Capítulo 5: Variáveis aleatórias contínuas</li>
+<li><strong>aula 10</strong>: Exercícios da aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 06</strong>: 06/04 e 08/04
+<ul>
+<li><strong>aula 11</strong>: Apresentação e explicação do trabalho pelo professor</li>
+<li><strong>aula 12</strong>: Revisão para a prova 1 (Cap. 1 - Estatística Descritiva, Cap. 2 - Probabilidade) <br> <br></li>
+</ul></li>
+<li><strong>Semana 07</strong>: 13/04 e 15/04
+<ul>
+<li><strong>aula 13</strong>: Revisão para a prova 1 (Cap. 3 - Variável aleatória discreta, Cap. 4 - Medidas Resumo, Cap. 5 - Variável aleatória contínua)</li>
+<li><strong>aula 14</strong>: <strong>Prova 1 (Cap. 1 ao 5)</strong> <br> <br></li>
+</ul></li>
+<li><strong>Semana 08</strong>: 22/04
+<ul>
+<li><strong>aula 15</strong>: Resolução da prova 1 <br> <br></li>
+</ul></li>
+<li><strong>Semana 09</strong>: 27/04 a 29/04
+<ul>
+<li><strong>aula 16</strong>: Capítulo 6: Inferência Estatística - Estimadores pontuais</li>
+<li><strong>aula 17</strong>: Capítulo 6: Inferência Estatística - Distribuição amostral <br> <br></li>
+</ul></li>
+<li><strong>Semana 10</strong>: 11/05 e 13/05
+<ul>
+<li><strong>aula 18</strong>: Exercícios sobre Inferência estatística: Estimadores pontuais</li>
+<li><strong>aula 19</strong>: Capítulo 6: Inferência Estatística - Estimadores intervalares <br> <br></li>
+</ul></li>
+<li><strong>Semana 11</strong>: 18/05 e 20/05
+<ul>
+<li><strong>aula 20</strong>: Capítulo 6: Inferência Estatística - Intervalo de confiança para proporção</li>
+<li><strong>aula 21</strong>: Exercícios sobre Inferência estatística: Estimadores intervalares <br> <br></li>
+</ul></li>
+<li><strong>Semana 12</strong>: 25/05 e 27/05
+<ul>
+<li><strong>aula 22</strong>: Capítulo 7: Testes de hipóteses</li>
+<li><strong>aula 23</strong>: Exercícios sobre a aula anterior <br> <br></li>
+</ul></li>
+<li><strong>Semana 13</strong>: 01/06 e 03/06
+<ul>
+<li><strong>aula 24</strong>: Testes Qui-quadrado<span class="math inline">\((\chi^2)\)</span></li>
+<li><strong>aula 25</strong>: Comparação de duas médias <br> <br></li>
+</ul></li>
+<li><strong>Semana 14</strong>: 08/06 e 10/06
+<ul>
+<li><strong>aula 26</strong>: Exercícios sobre a aula anterior</li>
+<li><strong>aula 27</strong>: Capítulo 8: Análise de Variância (ANOVA) <br> <br></li>
+</ul></li>
+<li><strong>Semana 15</strong>: 15/06 e 17/06
+<ul>
+<li><strong>aula 28</strong>: Exercícios sobre ANOVA</li>
+<li><strong>aula 29</strong>: Capítulo 9: Análise de correlação e regressão <br> <br><br />
+</li>
+</ul></li>
+<li><strong>Semana 16</strong>: 22/06 e 24/06
+<ul>
+<li><strong>aula 30</strong>: Exercícios sobre a aula passada</li>
+<li><strong>aula 31</strong>: Regressão linear simples <br> <br><br />
+</li>
+</ul></li>
+<li><strong>Semana 17</strong>: 29/06 e 01/07
+<ul>
+<li><strong>aula 32</strong>: Exercícios da aula anterior e mais alguns modelos de Regressão Linear simples no R e exemplos para o Trabalho.</li>
+<li><strong>aula 33</strong>: Revisão para a prova 2 (Cap. 6: Inferência Estatística, Cap. 7: Testes de hipóteses, Cap. 8: Análise de Variância, Cap. 9: Análise de correlação e regressão <br> <br></li>
+</ul></li>
+<li><strong>Semana 18</strong>: 06/07 e 08/07
+<ul>
+<li><strong>aula 34</strong>: <strong>Prova 2 (Cap. 6 ao 9)</strong></li>
+<li><strong>aula 35</strong>: Espaço para estudo e tirar dúvidas para a prova de recuperação</li>
+</ul></li>
+</ul>
+<div class="alert alert-danger" role="alert">
+<ul>
+<li>AVALIAÇÃO DE RECUPERAÇÃO 13/07 as 13:00h<br />
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<center>
+  <hr width="100%" size="3px">
+  <p> <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">
+      <img src="img/CC_by-nc-sa_80x15.png" alt="Licença Creative Commons 4.0"> </a>
+  </p>
+  <p> <font size="2"> Este conteúdo
+      está disponível por meio da Licença Creative Commons 4.0 </font>
+  </p>
+</center>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

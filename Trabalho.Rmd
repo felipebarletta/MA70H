@@ -1,0 +1,31 @@
+---
+title: "Instruções para o trabalho"
+output:
+  html_document:
+    toc: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+>Abaixo a lista de exercícios e instruções para a entrega do Trabalho.
+
+
+## 1. Exercício
+
+- Na aula 2 será analisada a reportagem do seguinte
+    [link:](https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2018/01/14/72-dos-mil-melhores-na-prova-do-enem-sao-homens.htm)
+
+- Com base na leitura e análise feita em aula, inclua no Trabalho o que se pede abaixo:    
+    
+    - Leia uma reportagem ou um artigo  e procure relacionar com o discutido na aula, procurando identificar os tópicos de discussão e conceitos.
+    - Qual foi o mecanismo para aquisição de dados?
+    - Os dados são populacionais ou "amostrais"?
+    - Voce pode apontar o uso de probabilidades, estatística descritiva e/ou inferência estatística no texto?
+    - Procure apontar as partes do texto onde algum tipo de análise/método estatístico foi utilizado.
+    - Como seria a forma da tabela de dados utilizada para gerar as informações da reportagem? Quais seriam as "colunas" (variáveis/atributos) nesta tabela?
+
+
+

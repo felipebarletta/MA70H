@@ -1,0 +1,64 @@
+---
+title: "MA70H - Probabilidade e Estatística"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+source("setup_knitr.R")
+```
+
+[![Build Status](https://travis-ci.org/leg-ufpr/ce003.svg?branch=master)](https://travis-ci.org/leg-ufpr/ce003)
+
+# Detalhes da oferta da disciplina
+
+- **Cursos:**
+    - Turma TF02
+- **Período:** Curso de verão de 2020
+- **Professores Responsáveis:**
+    - [Felipe E. Barletta Mendes][], [LEG][]/DEST/UTFPR
+
+- **Local e horários:**
+    - Sala A-102:
+        - Segunda a quinta, 18:30 - 22:00, **MULTIMIDIA-DEST**
+
+- **Horários de atendimento dos professores:**
+    - Segunda a quinta: 17:00 as 18:00 (preferenciais). Outros horários
+      podem ser agendados previamente.
+- **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
+- **Avaliação**:
+    - sabatinas, aplicadas ao final de um módulo da disciplina
+   _sabatinas são provas menores, e com conteúdo específico_
+        - O número de sabatinas pode variar conforme o
+  andamento da disciplina (programadas 7 para o corrente semestre)
+        - Somar o número de pontos nas cinco sabatinas com maior
+  número de pontos (cada sabatina vale 20 pontos)
+        - Não há segunda chamada de sabatinas. Ao perder uma sabatina,
+  a nota é 0, e automaticamente estará dentro das duas menores notas
+  excluídas para o cálculo da média de sabatinas
+    - Duas avaliações valendo 10 pontos cada uma
+    - A nota será a média das duas maiores notas, considerando a média
+  das sabatinas e das duas avaliações
+- **Datas importantes:** De acordo com a [Resolução 30/17 - CEPE][]:
+    - **13/01**: Início do curso
+    - **03/12**: Final do curso
+   
+
+# Programa/objetivos da disciplina
+
+O objetivo desta disciplina é capacitar os alunos em conceitos básicos
+de estatística que permitam a interpretação de resultados de análises e
+procedimentos estatísticos, bem como a execução de procedimentos e
+análises estatística básicas. O curso compreende três grandes tópicos:
+
+- Análise descritiva e exploratória de dados
+- Noções de probabilidades e distribuições de probabilidades
+- Introdução à procedimentos de inferência estatística
+
+<!-- links -->
+
+[Elias Teixeira Krainski]: http://www.leg.ufpr.br/~elias/
+[Fernando de Pol Mayer]: http://leg.ufpr.br/~fernandomayer
+[LEG]: http://www.leg.ufpr.br
+[Resolução 30/17 - CEPE]: http://www.est.ufpr.br/calendario/cepe3017.pdf

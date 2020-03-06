@@ -1,0 +1,144 @@
+---
+title: "MA70H - Probabilidade e Estatística"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE, cache=FALSE}
+source("setup_knitr.R")
+```
+
+<div class="alert alert-danger" role="alert">
+**ATENÇÃO!**
+
+- Observem atentamente as datas das avaliações no menu **Aulas**
+
+- Não haverá aula - Dias 10/04, 20/04, 21/04, 01/05, 05/05 a 08/05, 11/06 e 12/06
+
+- Entrega do trabalho - ùltimo dia de aula - **EM FORMATO DIGITAL - enviar no e-mail:** fmendes@utfpr.edu.br
+
+</div>
+
+# Detalhes da oferta da disciplina
+
+## Escolha a aba de sua turma {.tabset}
+
+### Turma TF02
+
+- **Cursos:**
+    - Turma TF02
+- **Período:** Curso de verão de 2020
+- **Professor Responsável:**
+    - Felipe E. Barletta Mendes, DAEST/UTFPR
+
+- **Local e horários:**
+    - Sala A-102:
+        - Segunda a quinta, 18:30 - 22:00
+
+- **Horários de atendimento do professor:**
+    - Segunda a quinta: 17:00 as 18:00 (preferenciais). Outros horários
+      podem ser agendados previamente.
+- **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
+- **Avaliação**:
+    - Duas provas, cada uma valendo 40 pontos;
+    - Uma lista de exercícios valendo 20 pontos;
+        - A nota final do aluno será a soma dos pontos das duas provas e da lista de exercícios;
+        - Não haverá avaliação final.
+    
+- **Datas importantes:**
+    - **13/01**: Início do curso
+    - **03/02**: Não haverá aula
+    - **06/02**: Final do curso
+   
+   
+
+### Turma S03
+
+- **Cursos:**
+    - Turma S03
+- **Período:** Primeiro semestre de 2020
+- **Professor Responsável:**
+    - Felipe E. Barletta Mendes, DAEST/UTFPR
+
+- **Local e horários:**
+    - Sala E-105:
+        - Terça, 20:20 - 22:00
+    - Sala E-106:
+        - Quinta, 20:20 - 22:00    
+
+- **Horários de atendimento do professor (preferenciais):**
+    - Segundas: 18:00 as 19:00
+    - Terças e quintas: 18:00 as 20:00.
+    - Outros horários podem ser agendados previamente.
+    
+- **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
+
+- **Avaliação**:
+    Duas provas(P1 e P2), cada uma valendo 10 pontos e peso 1; Um trabalho (T) valendo 10 pontos e peso 1; A média parcial (MP) será a média aritmética simples de P1, P2 e T. Caso a MP>=6,0, o aluno estará aprovado. Caso contrário, haverá uma avaliação de recuperação (R) . Esta recuperação será uma prova que contemplará todo o conteúdo da disciplina e irá substituir a nota mais baixa entre as notas das prova 1 e 2. A média final (MF) será calculada da seguinte forma: - Se R > P1 então MF = (R+ P2 +T) / 3 - Se R > P2 então MF = (R+ P1 +T) / 3 - Se R > 6,0 então Mf = R Só poderá fazer a prova de recuperação quem fizer pelo menos umas das provas (ou P1 ou P2). Se MF>=6,0, aluno aprovado, caso contrário o aluno é reprovado.
+
+  - Haverá avaliação de recuperação.
+    
+
+### Turma S51
+
+- **Cursos:**
+    - Turma S51
+- **Período:** Primeiro semestre de 2020
+- **Professor Responsável:**
+    - Felipe E. Barletta Mendes, DAEST/UTFPR
+
+- **Local e horários:**
+    - Sala E-207:
+        - Quarta, 18:40 - 20:20
+    - Sala E-308:
+        - Sexta, 18:40 - 20:20    
+
+- **Horários de atendimento do professor (preferenciais):**
+    - Segundas: 18:00 as 19:00
+    - Terças e quintas: 18:00 as 20:00.
+    - Outros horários podem ser agendados previamente.
+- **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
+
+- **Avaliação**:
+    - Duas provas(P1 e P2), cada uma valendo 10 pontos e peso 1; Um trabalho (T) valendo 10 pontos e peso 1; A média parcial (MP) será a média aritmética simples de P1, P2 e T. Caso a MP>=6,0, o aluno estará aprovado. Caso contrário, haverá uma avaliação de recuperação (R) . Esta recuperação será uma prova que contemplará todo o conteúdo da disciplina e irá substituir a nota mais baixa entre as notas das prova 1 e 2. A média final (MF) será calculada da seguinte forma: - Se R > P1 então MF = (R+ P2 +T) / 3 - Se R > P2 então MF = (R+ P1 +T) / 3 - Se R > 6,0 então Mf = R Só poderá fazer a prova de recuperação quem fizer pelo menos umas das provas (ou P1 ou P2). Se MF>=6,0, aluno aprovado, caso contrário o aluno é reprovado.
+
+  - Haverá avaliação de recuperação.
+    
+    
+### Turma S73
+
+- **Cursos:**
+    - Turma S73
+- **Período:** Primeiro semestre de 2020
+- **Professor Responsável:**
+    - Felipe E. Barletta Mendes, DAEST/UTFPR
+
+- **Local e horários:**
+    - Sala E-104:
+        - Segunda, 13:15 - 14:40
+        - Quarta, 15:50 - 17:30  
+        
+- **Horários de atendimento do professor (preferenciais):**
+    - Segundas: 18:00 as 19:00
+    - Terças e quintas: 18:00 as 20:00.
+    - Outros horários podem ser agendados previamente.
+- **Frequência**: de acordo com as normas da Universidade, mínimo de 75%
+
+- **Avaliação**:
+    - Duas provas(P1 e P2), cada uma valendo 10 pontos e peso 1; Um trabalho (T) valendo 10 pontos e peso 1; A média parcial (MP) será a média aritmética simples de P1, P2 e T. Caso a MP>=6,0, o aluno estará aprovado. Caso contrário, haverá uma avaliação de recuperação (R) . Esta recuperação será uma prova que contemplará todo o conteúdo da disciplina e irá substituir a nota mais baixa entre as notas das prova 1 e 2. A média final (MF) será calculada da seguinte forma: - Se R > P1 então MF = (R+ P2 +T) / 3 - Se R > P2 então MF = (R+ P1 +T) / 3 - Se R > 6,0 então Mf = R Só poderá fazer a prova de recuperação quem fizer pelo menos umas das provas (ou P1 ou P2). Se MF>=6,0, aluno aprovado, caso contrário o aluno é reprovado.
+
+  - Haverá avaliação de recuperação.
+  
+    
+    
+# Programa/objetivos da disciplina
+
+O objetivo desta disciplina é capacitar os alunos em conceitos básicos
+de estatística que permitam a interpretação de resultados de análises e
+procedimentos estatísticos, bem como a execução de procedimentos e
+análises estatística básicas. O curso compreende três grandes tópicos:
+
+- Análise descritiva e exploratória de dados
+- Noções de probabilidades e distribuições de probabilidades
+- Introdução à procedimentos de inferência estatística
